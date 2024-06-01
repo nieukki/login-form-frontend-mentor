@@ -7,9 +7,8 @@ const Message = () => {
         Message <span className="text-greenMedium">*</span>
       </p>
       <textarea
-        rows="8"
-        className="border border-greyMedium rounded-md p-2 w-full resize-none"
-        required
+        rows="4"
+        className="border border-greyMedium rounded-md p-3 w-full resize-none"
       ></textarea>
     </div>
   );
