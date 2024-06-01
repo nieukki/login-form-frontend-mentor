@@ -2,7 +2,7 @@ import React from "react";
 
 const LastName = () => {
   return (
-    <div className="flex flex-col gap-y-2">
+    <div className="flex flex-col gap-y-2 w-full">
       <p className="text-base">
         Last Name <span className="text-greenMedium">*</span>
       </p>

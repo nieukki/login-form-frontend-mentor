@@ -9,12 +9,14 @@ import ConsentCheckbox from "./components/ConsentCheckbox.jsx";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center font-family1 bg-greenLighter">
-      <div className="bg-neutralWhite p-6 rounded-xl mx-4 my-6 flex flex-col gap-y-6 ">
+    <div className="w-screen h-screen flex flex-col items-center justify-center font-family1 bg-greenLighter">
+      <div className="bg-neutralWhite p-6 rounded-xl mx-4 my-6 flex flex-col gap-y-6 lg:w-2/5">
         <Header></Header>
         <form className="flex flex-col gap-y-2">
-          <FirstName></FirstName>
-          <LastName></LastName>
+          <div className="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:justify-evenly lg:gap-x-4">
+            <FirstName></FirstName>
+            <LastName></LastName>
+          </div>
           <Email></Email>
           <Queries></Queries>
           <Message></Message>

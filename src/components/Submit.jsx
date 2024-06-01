@@ -6,7 +6,7 @@ const Submit = () => {
       <input
         type="submit"
         value="Submit"
-        className="bg-greenMedium text-neutralWhite text-lg rounded-md py-3 cursor-pointer"
+        className="bg-greenMedium text-neutralWhite text-base font-bold rounded-md py-3 cursor-pointer"
       ></input>
     </div>
   );
