@@ -8,9 +8,9 @@ const Email = () => {
       </p>
       <input
         type="text"
+        required
         className="border border-greyMedium rounded-md p-3 w-full"
-      ></input>
-      <p className="text-base text-red">Please enter a valid email address</p>
+      />
     </div>
   );
 };

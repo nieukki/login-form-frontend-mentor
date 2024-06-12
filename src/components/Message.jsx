@@ -9,7 +9,8 @@ const Message = () => {
       <textarea
         rows="4"
         className="border border-greyMedium rounded-md p-3 w-full resize-none"
-      ></textarea>
+        required
+      />
     </div>
   );
 };
